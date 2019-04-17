@@ -18,7 +18,7 @@
 ## Build Status
 
 [![master Build Status](https://travis-ci.org/osleyder85/LegionCore.svg?branch=master)](https://travis-ci.org/osleyder85/LegionCore)
-[![Build status](https://ci.appveyor.com/api/projects/status/kb0wjxh3va9c3e0k/branch/master?svg=true)](https://ci.appveyor.com/project/osleyder85/LegionCore/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/kb0wjxh3va9c3e0k/branch/master?svg=true)](https://ci.appveyor.com/project/osleyder85/legioncore)
 
 ## Introduction
 
