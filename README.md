@@ -17,8 +17,8 @@
 
 ## Build Status
 
-[![master Build Status](https://travis-ci.org/AshamaneProject/AshamaneCore.svg?branch=master)](https://travis-ci.org/AshamaneProject/AshamaneCore)
-[![Build status](https://ci.appveyor.com/api/projects/status/kb0wjxh3va9c3e0k/branch/master?svg=true)](https://ci.appveyor.com/project/Traesh/ashamanecore/branch/master)
+[![master Build Status](https://travis-ci.org/osleyder85/LegionCore.svg?branch=master)](https://travis-ci.org/osleyder85/LegionCore)
+[![Build status](https://ci.appveyor.com/api/projects/status/kb0wjxh3va9c3e0k/branch/master?svg=true)](https://ci.appveyor.com/project/osleyder85/LegionCore/branch/master)
 
 ## Introduction
 
