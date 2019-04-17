@@ -1,5 +1,6 @@
 # LegionCore
 
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/osleyder85/LegionCore.svg)](https://isitmaintained.com/project/osleyder85/LegionCore "Tiempo promedio para resolver un problema") [![Percentage of issues still open](https://isitmaintained.com/badge/open/osleyder85/LegionCore.svg)](https://isitmaintained.com/project/osleyder85/LegionCore "Porcentaje de problemas aún abiertos")
 --------------
 
 
