@@ -169,6 +169,7 @@ struct TC_GAME_API LootItem
     uint8   context;
     ConditionContainer conditions;                               // additional loot condition
     GuidSet allowedGUIDs;
+    ObjectGuid rollWinnerGUID;
     uint32  count;
     bool    currency          : 1;
     bool    is_looted         : 1;
