@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017-2018 AshamaneProject <https://github.com/AshamaneProject>
+ * Copyright (C) 2019-2019 LegionCore <https://github.com/osleyder85/LegionCore>
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -37,6 +38,15 @@ struct instance_emerald_nightmare : public InstanceScript
     {
         SetBossNumber(DATA_MAX_ENCOUNTERS);
         LoadDoorData(doorData);
+
+        if (GetBossState(DATA_XAVIUS) != DONE)
+            SetBossState(DATA_PRE_EVENT_XAVIUS, NOT_STARTED); // Reset event
+    }
+
+    void OnPlayerEnter(Player* player) override
+    {
+        if (GetBossState(DATA_XAVIUS) == IN_PROGRESS)
+            player->CastSpell(player, 189960, true); //Alter power
     }
 
     void OnCreatureCreate(Creature* creature) override
