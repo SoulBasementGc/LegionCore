@@ -31,6 +31,8 @@ void AddSC_valsharah();
 void AddSC_zone_argus_krokuun();
 void AddSC_zone_argus_antoran_wastes();
 void AddSC_zone_argus_macaree();
+void AddSC_instance_invasion_point();
+void AddSC_broken_shore();
 
 // Demon Hunter start zone
 void AddSC_zone_mardum();
@@ -52,6 +54,7 @@ void AddSC_class_hall_warrior();
 
 // Professions
 void AddSC_legion_profession_blacksmithing();
+void AddSC_legion_profession_jewelcrafting();
 
 // WorldBoss
 void AddSC_boss_nithogg();
@@ -108,12 +111,20 @@ void AddSC_boss_harbaron_maw();
 void AddSC_boss_helya_maw();
 
 // Neltharion's Lair
-//void AddSC_instance_neltharions_lair();
-//void AddSC_neltharions_lair();
-//void AddSC_boss_rokmora();
-//void AddSC_boss_ularogg_cragshaper();
-//void AddSC_boss_naraxas();
-//void AddSC_boss_dargrul_the_underking();
+void AddSC_instance_neltharions_lair();
+void AddSC_neltharions_lair();
+void AddSC_boss_rokmora();
+void AddSC_boss_ularogg_cragshaper();
+void AddSC_boss_naraxas();
+void AddSC_boss_dargrul_the_underking();
+
+// The HightHold
+void AddSC_instance_the_nighthold();
+void AddSC_the_nighthold();
+void AddSC_boss_skorpyron();
+void AddSC_boss_chronomatic_anomaly();
+void AddSC_boss_trilliax();
+void AddSC_boss_aluriel();
 
 // Vault of the Wardens
 //void AddSC_instance_vault_of_the_wardens();
@@ -175,6 +186,15 @@ void AddSC_boss_sisters_of_moon();
 void AddSC_tomb_of_sargeras();
 void AddSC_instance_tomb_of_sargeras();
 
+//scenario
+void AddSC_scenario_the_violet_hold();
+void AddSC_scenario_artifact_ursocslair();
+void AddSC_scenario_artifact_restoacqusition();
+void AddSC_scenario_artifact_ruins_of_falanaar();
+void AddSC_scenario_artifact_karazhan_catacombs();
+void AddSC_scenario_artifact_brokenshore();
+void AddSC_scenario_artifact_tirisfal_glades();
+
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
 void AddBrokenIslesScripts()
@@ -192,6 +212,8 @@ void AddBrokenIslesScripts()
     AddSC_zone_argus_krokuun();
     AddSC_zone_argus_antoran_wastes();
     AddSC_zone_argus_macaree();
+    AddSC_instance_invasion_point();
+    AddSC_broken_shore();
 
     // Demon Hunter start zone
     AddSC_zone_mardum();
@@ -213,6 +235,7 @@ void AddBrokenIslesScripts()
 
     // Professions
     AddSC_legion_profession_blacksmithing();
+    AddSC_legion_profession_jewelcrafting();
 
     // WorldBoss
     AddSC_boss_ana_mouz();
@@ -269,12 +292,20 @@ void AddBrokenIslesScripts()
     AddSC_boss_helya_maw();
 
     // Neltharion's Lair
-    //AddSC_instance_neltharions_lair();
-    //AddSC_neltharions_lair();
-    //AddSC_boss_rokmora();
-    //AddSC_boss_ularogg_cragshaper();
-    //AddSC_boss_naraxas();
-    //AddSC_boss_dargrul_the_underking();
+    AddSC_instance_neltharions_lair();
+    AddSC_neltharions_lair();
+    AddSC_boss_rokmora();
+    AddSC_boss_ularogg_cragshaper();
+    AddSC_boss_naraxas();
+    AddSC_boss_dargrul_the_underking();
+
+    // The HightHold
+    AddSC_instance_the_nighthold();
+    AddSC_the_nighthold();
+    AddSC_boss_skorpyron();
+    AddSC_boss_chronomatic_anomaly();
+    AddSC_boss_trilliax();
+    AddSC_boss_aluriel();
 
     // Vault of the Wardens
     //AddSC_instance_vault_of_the_wardens();
@@ -335,4 +366,13 @@ void AddBrokenIslesScripts()
     AddSC_boss_sisters_of_moon();
     AddSC_tomb_of_sargeras();
     AddSC_instance_tomb_of_sargeras();
+
+    //scenario
+    AddSC_scenario_the_violet_hold();
+    AddSC_scenario_artifact_ursocslair();
+    AddSC_scenario_artifact_restoacqusition();
+    AddSC_scenario_artifact_ruins_of_falanaar();
+    AddSC_scenario_artifact_karazhan_catacombs();
+    AddSC_scenario_artifact_brokenshore();
+    AddSC_scenario_artifact_tirisfal_glades();
 }
